@@ -18,7 +18,6 @@ client = ComputerVisionClient(
 
 
 def read_image(uri):
-    print(uri)
     numberOfCharsInOperationId = 36
     maxRetries = 10
 
